@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="new-product-snippet" name="New Products">
+        <section>
+            <div class="my-container">
+                <h2>New Products</h2>
+                <div class="my-grid-4 my-mt-4 my-gap-3 new-product-wrap" id="new-product-wrap">
+                    <div class="my-card">
+                        <div>
+                            <img class="my-border my-radius-sm my-p-1" src="" alt=""/>
+                        </div>
+
+                        <div class="my-mt-3">
+                            <h4>Title or item name</h4>
+                            <h5>Price</h5>
+                            <p class="my-mt-2"> Description </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+
+</odoo>

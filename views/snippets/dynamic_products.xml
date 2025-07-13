@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="dynamic_products" name="Dynamic Products">
+        <section class="dynamic-products">
+            <div id="dynamic-products">dynamic-products</div>
+        </section>
+    </template>
+</odoo>

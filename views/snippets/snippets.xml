@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="custom_snippets" inherit_id="website.snippets" name="Custom Snippets">
+
+        <!--======  Create Snippet Group  ======-->
+        <xpath expr="//snippets[@id='snippet_groups']" position="inside">
+            <t snippet-group="Hero" t-snippet="website.s_snippet_group" string="Hero Snippet"
+               t-thumbnail="/xsellence_snippets/static/description/theme_screenshot.jpg"/>
+
+            <!-- Group 2: Test2 -->
+<!--            <t snippet-group="Test2" t-snippet="website.s_snippet_group" string="Test2"-->
+<!--               t-thumbnail="/xsellence_snippets/static/description/theme_screenshot.jpg"/>-->
+        </xpath>
+
+
+        <xpath expr="//snippets[@id='snippet_structure']" position="inside">
+<!--            <t t-snippet="xsellence_snippets.property_agents" string="Property Agents" group="Test">-->
+<!--                <keywords>hero, jumbotron, headline, header, branding, intro, home, showcase, spotlight, lead,-->
+<!--                    welcome, announcement, splash, top, main-->
+<!--                </keywords>-->
+<!--            </t>-->
+
+             <!-- =========  Hero 1 Snippet  ========== -->
+            <t t-snippet="xsellence_snippets.hero1-snippet" string="dynamic_products" group="Hero">
+            </t>
+
+        </xpath>
+
+
+        <!-- group 2 child-->
+        <xpath expr="//snippets[@id='snippet_structure']" position="inside">
+
+            <!-- =========  Product Cart  ========== -->
+<!--            <t t-snippet="xsellence_snippets.new-product-snippet" sring="Product Cart" group="Test2">-->
+<!--            </t>-->
+        </xpath>
+    </template>
+</odoo>

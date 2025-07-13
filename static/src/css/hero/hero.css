@@ -1,0 +1,212 @@
+/****************************************
+*****   Hero 1 Snippet Start Here   *****
+****************************************/
+
+.hero1-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 14px;
+    background-color: var(--white);
+    height: 525px;
+}
+
+
+
+
+.hero1-wrapper .hero-slider-area {
+    width: calc(100% - 520px);
+    border: 1px solid var(--border-color);
+    height: 100%;
+}
+
+.hero1-wrapper .right-banner {
+    width: 250px;
+}
+
+
+/**********  Hero 1 category Start  **********/
+.hero1-wrapper .category {
+    padding-left: 10px;
+    width: 250px;
+}
+
+.hero1-wrapper .hero1-category-item a::after,
+.hero1-wrapper .sub-dropdown::after {
+    content: '';
+    position: absolute;
+    left: -10px;
+    top: 50%;
+    transform: translate(-2px, -50%);
+    width: 4px;
+    height: 4px;
+    background-color: var(--primary-hover-color);
+    transition: .24s linear;
+}
+
+.hero1-wrapper .hero1-category-item a:hover::after {
+    left: -4px;
+}
+
+.hero1-wrapper .hero1-category-item a,
+.hero1-wrapper .sub-dropdown {
+    padding: 6px 0px;
+    border-bottom: 1px solid var(--border-color);
+    position: relative;
+    margin-left: 4px;
+    width: 100%;
+    padding-right: 6px;
+    cursor: pointer;
+}
+
+.hero1-wrapper .hero1-category-item a i,
+.hero1-wrapper .sub-dropdown i {
+    font-size: 11px;
+}
+
+.hero1-wrapper .hero1-category-item {
+    position: relative;
+}
+
+.hero1-wrapper .hero1-category-item a:hover,
+.hero1-wrapper .sub-dropdown:hover {
+    color: var(--primary-hover-color);
+    text-decoration: none;
+}
+
+
+/* category dropdown */
+.hero1-wrapper .hero1-category-item ul {
+    background-color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    z-index: -1;
+    border: 1px solid var(--white-off);
+    padding: 12px;
+    top: 20px;
+    min-width: 200px;
+    position: absolute;
+    box-shadow: var(--shadow-2);
+    left: 102%;
+    transition: .2s linear;
+    padding-left: 20px !important;
+}
+
+.hero1-wrapper .hero1-category-item ul li {
+    list-style: none;
+}
+
+.hero1-wrapper .hero1-category-item:hover ul {
+    visibility: visible;
+    opacity: 1;
+    z-index: 4;
+    top: -1px;
+    min-width: 200px;
+}
+
+
+
+/* hero1 slider */
+.hero1-wrapper .slider-wrapper {
+    height: 100%;
+}
+
+
+
+
+/*********  Hero Slider  **********/
+.hero-slider-area .swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+/* Optional: style navigation buttons */
+.swiper-button-next,
+.swiper-button-prev {
+    color: #333;
+}
+
+/* slider button */
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+    content: 'prev';
+    font-size: 18px;
+    background-color: rgb(223, 223, 223);
+    border-radius: 4px;
+    display: none;
+}
+
+.swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after {
+    content: 'next';
+    font-size: 18px;
+    display: none;
+}
+
+.swiper-pagination-bullet-active {
+    background: #333;
+}
+
+.hero-slider-area .swiper-slide img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+/****************************************
+*****  Responsive 991px Start Here  *****
+****************************************/
+@media (max-width: 991px) {
+
+    /*******************   Hero 1 Snippet Start Here   ********************/
+    .hero1-wrapper {
+        height: fit-content;
+        padding: 16px;
+    }
+
+    .hero1-wrapper .hero-slider-area {
+        width: 100%;
+        border: 1px solid var(--border-color);
+        height: 100%;
+    }
+
+    .hero1-wrapper .right-banner {
+        width: 100%;
+    }
+
+    .hero1-wrapper .right-banner .item {
+        flex: 1;
+    }
+
+    /**********  Hero 1 category Start  **********/
+    .hero1-wrapper .category {
+        width: 100%;
+    }
+
+    .hero1-wrapper .hero1-category-item ul {
+        display: none;
+        top: 0;
+        right: 0;
+    }
+
+    .hero1-wrapper .hero1-category-item:hover ul {
+        display: block;
+        visibility: visible;
+        opacity: 1;
+        z-index: 4;
+        top: -1px;
+        min-width: 200px;
+        left: 120px;
+    }
+}

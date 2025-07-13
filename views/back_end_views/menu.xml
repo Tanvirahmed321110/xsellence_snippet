@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!--=======  Root Menu  ======-->
+        <menuitem
+                name="Custom Menu"
+                id="menu_theme_tutorial_custom"
+                parent="website.menu_website_configuration"
+                sequence="10"/>
+
+
+        <!--======================  Sub Menu For Custom Menu  ====================-->
+        <menuitem name="New Product "
+                  id="menu_new_product"
+                  parent="menu_theme_tutorial_custom"
+                  action="theme_tutorial_new_product_action_id"
+                  sequence="-1"/>
+    </data>
+</odoo>

@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="hero1-snippet" name="Hero Snippet">
+
+        <section>
+            <div class="my-container">
+                <div class="hero1-wrapper my-flex-md-column my-p-5">
+                    <!--**********  Category Start Here  **********-->
+                    <div class="category">
+                        <!-- All Category Head -->
+                        <div class="my-d-flex my-align-center my-gap-2">
+                            <span class="my-fs-xl my-text-gray">
+                                <i class="fa-solid fa-bars"></i>
+                            </span>
+                            <div class="my-fs-lg">All Categories</div>
+                        </div>
+                        <!-- Category Menu -->
+                        <ul class="my-mt-2 list-unstyled">
+                            <li class="hero1-category-item">
+                                <div class="sub-dropdown my-flex-between">
+                                    Home Lighting
+                                    <span>
+                                        <i class="fa-solid fa-angle-right"></i>
+                                    </span>
+                                </div>
+                                <!-- Sub Dropdown -->
+                                <ul>
+                                    <li class="hero1-category-item">
+                                        <a href="#">Ceiling Lights</a>
+                                    </li>
+                                    <li class="hero1-category-item">
+                                        <a href="#">Wall Lights</a>
+                                    </li>
+                                    <li class="hero1-category-item">
+                                        <a href="#">Pendant Lights</a>
+                                    </li>
+                                    <li class="hero1-category-item">
+                                        <a href="#">Chandeliers</a>
+                                    </li>
+                                    <li class="hero1-category-item">
+                                        <a href="#">Track Lighting</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="hero1-category-item">
+                                <div class="sub-dropdown my-flex-between">
+                                    Outdoor Lighting
+                                    <span>
+                                        <i class="fa-solid fa-angle-right"></i>
+                                    </span>
+                                </div>
+                                <!-- Sub Dropdown -->
+                                <ul>
+                                    <li class="hero1-category-item">
+                                        <a href="#">Garden Lights</a>
+                                    </li>
+                                    <li class="hero1-category-item">
+                                        <a href="#">Pathway Lights</a>
+                                    </li>
+                                    <li class="hero1-category-item">
+                                        <a href="#">Flood Lights</a>
+                                    </li>
+                                    <li class="hero1-category-item">
+                                        <a href="#">Security Lights</a>
+                                    </li>
+                                    <li class="hero1-category-item">
+                                        <a href="#">Pool Lights</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="hero1-category-item">
+                                <div class="sub-dropdown my-flex-between">
+                                    Smart Lighting
+                                    <span>
+                                        <i class="fa-solid fa-angle-right"></i>
+                                    </span>
+                                </div>
+                                <!-- Sub Dropdown -->
+                                <ul>
+                                    <li class="hero1-category-item">
+                                        <a href="#">Smart Bulbs</a>
+                                    </li>
+                                    <li class="hero1-category-item">
+                                        <a href="#">Smart Switches</a>
+                                    </li>
+                                    <li class="hero1-category-item">
+                                        <a href="#">Smart Strips</a>
+                                    </li>
+                                    <li class="hero1-category-item">
+                                        <a href="#">Smart Panels</a>
+                                    </li>
+                                    <li class="hero1-category-item">
+                                        <a href="#">Smart Controllers</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="hero1-category-item">
+                                <div class="sub-dropdown my-flex-between">
+                                    Commercial Lighting
+                                    <span>
+                                        <i class="fa-solid fa-angle-right"></i>
+                                    </span>
+                                </div>
+                                <!-- Sub Dropdown -->
+                                <ul>
+                                    <li class="hero1-category-item">
+                                        <a href="#">Office Lighting</a>
+                                    </li>
+                                    <li class="hero1-category-item">
+                                        <a href="#">Retail Lighting</a>
+                                    </li>
+                                    <li class="hero1-category-item">
+                                        <a href="#">Industrial Lighting</a>
+                                    </li>
+                                    <li class="hero1-category-item">
+                                        <a href="#">Hospital Lighting</a>
+                                    </li>
+                                    <li class="hero1-category-item">
+                                        <a href="#">Hotel Lighting</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="hero1-category-item">
+                                <div class="sub-dropdown my-flex-between">
+                                    Decorative Lighting
+                                    <span>
+                                        <i class="fa-solid fa-angle-right"></i>
+                                    </span>
+                                </div>
+                                <!-- Sub Dropdown -->
+                                <ul>
+                                    <li class="hero1-category-item">
+                                        <a href="#">Lamps</a>
+                                    </li>
+                                    <li class="hero1-category-item">
+                                        <a href="#">String Lights</a>
+                                    </li>
+                                    <li class="hero1-category-item">
+                                        <a href="#">Candle Lights</a>
+                                    </li>
+                                    <li class="hero1-category-item">
+                                        <a href="#">Art Lighting</a>
+                                    </li>
+                                    <li class="hero1-category-item">
+                                        <a href="#">Seasonal Lighting</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="hero1-category-item">
+                                <div class="sub-dropdown my-flex-between">
+                                    Energy Saving
+                                    <span>
+                                        <i class="fa-solid fa-angle-right"></i>
+                                    </span>
+                                </div>
+                                <!-- Sub Dropdown -->
+                                <ul>
+                                    <li class="hero1-category-item">
+                                        <a href="#">LED Bulbs</a>
+                                    </li>
+                                    <li class="hero1-category-item">
+                                        <a href="#">Solar Lights</a>
+                                    </li>
+                                    <li class="hero1-category-item">
+                                        <a href="#">Motion Sensors</a>
+                                    </li>
+                                    <li class="hero1-category-item">
+                                        <a href="#">Dimmable Lights</a>
+                                    </li>
+                                    <li class="hero1-category-item">
+                                        <a href="#">Low Voltage Lighting</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="hero1-category-item">
+                                <div class="sub-dropdown my-flex-between">
+                                    Lighting Accessories
+                                    <span>
+                                        <i class="fa-solid fa-angle-right"></i>
+                                    </span>
+                                </div>
+                                <!-- Sub Dropdown -->
+                                <ul>
+                                    <li class="hero1-category-item">
+                                        <a href="#">Lampshades</a>
+                                    </li>
+                                    <li class="hero1-category-item">
+                                        <a href="#">Bulb Holders</a>
+                                    </li>
+                                    <li class="hero1-category-item">
+                                        <a href="#">Dimmers</a>
+                                    </li>
+                                    <li class="hero1-category-item">
+                                        <a href="#">Transformers</a>
+                                    </li>
+                                    <li class="hero1-category-item">
+                                        <a href="#">Mounting Hardware</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="hero1-category-item">
+                                <div class="my-flex-between sub-dropdown">
+                                    <div>Specialty Lighting</div>
+                                    <span>
+                                        <i class="fa-solid fa-angle-right"></i>
+                                    </span>
+                                </div>
+                                <!-- Sub Dropdown -->
+                                <ul>
+                                    <li class="hero1-category-item">
+                                        <a href="#">Aquarium Lighting</a>
+                                    </li>
+                                    <li class="hero1-category-item">
+                                        <a href="#">Grow Lights</a>
+                                    </li>
+                                    <li class="hero1-category-item">
+                                        <a href="#">UV Lights</a>
+                                    </li>
+                                    <li class="hero1-category-item">
+                                        <a href="#">Stage Lighting</a>
+                                    </li>
+                                    <li class="hero1-category-item">
+                                        <a href="#">Emergency Lighting</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="hero1-category-item">
+                                <a href="#">Ceiling Fans</a>
+                            </li>
+                            <li class="hero1-category-item">
+                                <a href="#">Bathroom Lighting</a>
+                            </li>
+                            <li class="hero1-category-item">
+                                <a href="#">Kitchen Lighting</a>
+                            </li>
+                            <li class="hero1-category-item">
+                                <a href="#">Kids Room Lighting</a>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    <!--**********  Slider Start Here  **********-->
+                    <div class="hero-slider-area">
+                        <!-- Swiper Container -->
+                        <div class="swiper hero1-slider">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="https://i.ibb.co.com/Y4VgSh74/Philips-Electronic-Ballast.jpg"
+                                             alt="Philips-Electronic-Ballast"/>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="https://i.ibb.co.com/spZT375R/Philips-Pic-Slider.jpg"
+                                             alt="Philips-Pic-Slider"/>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="https://i.ibb.co.com/Y4VgSh74/Philips-Electronic-Ballast.jpg"
+                                             alt="Philips-Electronic-Ballast"/>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="https://i.ibb.co.com/spZT375R/Philips-Pic-Slider.jpg"
+                                             alt="Philips-Pic-Slider"/>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <!-- Optional controls -->
+                            <div class="swiper-pagination"></div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                        </div>
+                    </div>
+
+                    <!--**********  Right Banner Here  **********-->
+                    <div class="my-flex-column right-banner my-gap-2 my-flex-md-row">
+                        <div class="item">
+                            <a href="#">
+                                <img class="my-border" src="https://i.ibb.co.com/7dRV3HfK/Veri-Vide-baner-scaled.jpg"
+                                     alt="Veri-Vide-baner-scaled"/>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                                <img class="my-border" src=" https://i.ibb.co.com/39qHSM9z/400-250-Panel-Light.jpg"
+                                     alt="400-250-Panel-Light"/>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                                <img class="my-border" src=" https://i.ibb.co.com/JWHvNJ4X/400-250-Comercial-banner.jpg"
+                                     alt="400-250-Comercial-banner"/>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <script>
+            const swiper = new Swiper('.hero1-slider', {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            loop: true,
+            autoplay: {
+            delay: 3000,
+            disableOnInteraction: false,
+            },
+            pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+            },
+            navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+            },
+            });
+        </script>
+    </template>
+
+</odoo>

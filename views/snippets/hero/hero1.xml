@@ -243,38 +243,39 @@
                     <!--**********  Slider Start Here  **********-->
                     <div class="hero-slider-area">
                         <!-- Swiper Container -->
-                        <div class="swiper hero1-slider">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <a href="#">
-                                        <img src="https://i.ibb.co.com/Y4VgSh74/Philips-Electronic-Ballast.jpg"
-                                             alt="Philips-Electronic-Ballast"/>
-                                    </a>
-                                </div>
-                                <div class="swiper-slide">
+                        <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
                                     <a href="#">
                                         <img src="https://i.ibb.co.com/spZT375R/Philips-Pic-Slider.jpg"
                                              alt="Philips-Pic-Slider"/>
                                     </a>
                                 </div>
-                                <div class="swiper-slide">
-                                    <a href="#">
-                                        <img src="https://i.ibb.co.com/Y4VgSh74/Philips-Electronic-Ballast.jpg"
-                                             alt="Philips-Electronic-Ballast"/>
-                                    </a>
-                                </div>
-                                <div class="swiper-slide">
+                                <div class="carousel-item">
                                     <a href="#">
                                         <img src="https://i.ibb.co.com/spZT375R/Philips-Pic-Slider.jpg"
+                                             alt="Philips-Pic-Slider"/>
+                                    </a>
+                                </div>
+                                <div class="carousel-item">
+                                    <a href="#">
+                                        <img src="https://i.ibb.co.com/TDsQhyK2/Philips-Pic-Slider.jpg"
                                              alt="Philips-Pic-Slider"/>
                                     </a>
                                 </div>
                             </div>
-
-                            <!-- Optional controls -->
-                            <div class="swiper-pagination"></div>
-                            <div class="swiper-button-prev"></div>
-                            <div class="swiper-button-next"></div>
+                            <button class="carousel-control-prev" type="button"
+                                    data-bs-target="#carouselExampleControlsNoTouching"
+                                    data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button"
+                                    data-bs-target="#carouselExampleControlsNoTouching"
+                                    data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
                         </div>
                     </div>
 
@@ -294,7 +295,7 @@
                         </div>
                         <div class="item">
                             <a href="#">
-                                <img class="my-border" src=" https://i.ibb.co.com/JWHvNJ4X/400-250-Comercial-banner.jpg"
+                                <img class="my-border" src="https://i.ibb.co.com/JWHvNJ4X/400-250-Comercial-banner.jpg"
                                      alt="400-250-Comercial-banner"/>
                             </a>
                         </div>
@@ -304,25 +305,6 @@
             </div>
         </section>
 
-        <script>
-            const swiper = new Swiper('.hero1-slider', {
-            slidesPerView: 1,
-            spaceBetween: 10,
-            loop: true,
-            autoplay: {
-            delay: 3000,
-            disableOnInteraction: false,
-            },
-            pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
-            },
-            navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-            },
-            });
-        </script>
     </template>
 
 </odoo>

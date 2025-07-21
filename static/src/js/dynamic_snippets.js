@@ -19,7 +19,6 @@ publicWidget.registry.Products = publicWidget.Widget.extend({
             console.error('Error:', error);
         });
 
-
     },
 });
 

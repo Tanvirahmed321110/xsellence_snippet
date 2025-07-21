@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="offer-1" name="offer 1 snippet">
+        <section class="offer1-snippet">
+            <div class="my-container">
+
+                <div>
+                    <h3>Special Offer</h3>
+                    <p>Special Section Desc</p>
+                </div>
+
+                <div class="offer-items my-grid-3 my-mt-4 my-gap-6 my-grid-md-2 my-grid-sm-1">
+
+                    <!-- Single Offer Item -->
+                    <div class="offer-item my-card">
+                        <!-- image -->
+                        <a href="./offer_details.html" class="w-100">
+                            <img src="https://www.startech.com.bd/image/cache/catalog/offer-page/bkash-cashback-2025-400x400.webp"
+                                 alt=""/>
+                        </a>
+
+                        <!-- content -->
+                        <div class="content my-mt-4">
+                            <div class="date my-flex-between my-gap-4 my-border-bottom my-pb-2">
+                                <div class="my-p-2 my-radius-sm my-bg-border my-fw-bold my-fs-xs">
+                                    <span>01 Feb 2025 - 29 Feb 2025</span>
+                                </div>
+                                <div class="my-p-2 my-radius-sm my-bg-border my-fw-bold my-fs-xs">
+                                    <span>For online order</span>
+                                </div>
+                            </div>
+
+                            <!-- content bottom -->
+                            <div class="my-text-center my-flex-column my-gap-2 my-mt-5 my-py-2">
+                                <a href="./offer_details.html" class="hover-underline">
+                                    <h5>bKash 10% Instant Cashback Offer!</h5>
+                                </a>
+                                <p>Pay with bKash &amp; Enjoy 10% Instant Cashback!</p>
+                                <div class="my-text-center my-mt-4">
+                                    <a href="./offer_details.html" class="my-btn my-primary-btn">View
+                                        Details
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Single Offer Item -->
+                    <div class="offer-item my-card">
+                        <!-- image -->
+                        <a href="./offer_details.html" class="w-100">
+                            <img src="https://www.startech.com.bd/image/cache/catalog/offer-page/falgun-offer-deal-01-400x400.webp"
+                                 alt=""/>
+                        </a>
+
+                        <!-- content -->
+                        <div class="content my-mt-4">
+                            <div class="date my-flex-between my-gap-4 my-border-bottom my-pb-2">
+                                <div class="my-p-2 my-radius-sm my-bg-border my-fw-bold my-fs-xs">
+                                    <span>01 Feb 2025 - 29 Feb 2025</span>
+                                </div>
+                                <div class="my-p-2 my-radius-sm my-bg-border my-fw-bold my-fs-xs">
+                                    <span>For online order</span>
+                                </div>
+                            </div>
+
+                            <!-- content bottom -->
+                            <div class="my-text-center my-flex-column my-gap-2 my-mt-5 my-py-2">
+                                <a href="./offer_details.html" class="hover-underline">
+                                    <h5>bKash 10% Instant Cashback Offer!</h5>
+                                </a>
+                                <p>Pay with bKash &amp; Enjoy 10% Instant Cashback!</p>
+                                <div class="my-text-center my-mt-4">
+                                    <a href="./offer_details.html" class="my-btn my-primary-btn">View
+                                        Details
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Single Offer Item -->
+                    <div class="offer-item my-card">
+                        <!-- image -->
+                        <a href="./offer_details.html" class="w-100">
+                            <img src="https://www.startech.com.bd/image/cache/catalog/offer-page/nagad-64-district-free-delivery-offer-400x400.webp "
+                                 alt=""/>
+                        </a>
+
+                        <!-- content -->
+                        <div class="content my-mt-4">
+                            <div class="date my-flex-between my-gap-4 my-border-bottom my-pb-2">
+                                <div class="my-p-2 my-radius-sm my-bg-border my-fw-bold my-fs-xs">
+                                    <span>01 Feb 2025 - 29 Feb 2025</span>
+                                </div>
+                                <div class="my-p-2 my-radius-sm my-bg-border my-fw-bold my-fs-xs">
+                                    <span>For online order</span>
+                                </div>
+                            </div>
+
+                            <!-- content bottom -->
+                            <div class="my-text-center my-flex-column my-gap-2 my-mt-5 my-py-2">
+                                <a href="./offer_details.html" class="hover-underline">
+                                    <h5>bKash 10% Instant Cashback Offer!</h5>
+                                </a>
+                                <p>Pay with bKash &amp; Enjoy 10% Instant Cashback!</p>
+                                <div class="my-text-center my-mt-4">
+                                    <a href="./offer_details.html" class="my-btn my-primary-btn">View
+                                        Details
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </template>
+</odoo>

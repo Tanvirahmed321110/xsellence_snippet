@@ -1,0 +1,11 @@
+.offer1-snippet .offer-item img {
+    width: 100%;
+    max-height: 550px;
+}
+
+.offer1-snippet .offer-item {
+    transition: .3s linear;
+}
+.offer1-snippet .offer-item:hover{
+    transform: scale(.98);
+}

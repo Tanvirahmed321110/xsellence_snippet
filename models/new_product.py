@@ -2,7 +2,7 @@ from odoo import models, fields, api
 
 
 class YourModelName(models.Model):
-    _name = 'theme_tutorial.new_product'  # This is the technical name for your model
+    _name = 'xsellence_snippets.new_product'  # This is the technical name for your model
     _description = 'New Product'  # Description of what this model represents
 
     name = fields.Char(string='Name', required=True)

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="dynamic-cart1-snippet" name="Dynamic Products">
+        <section class="dynamic-cart1">
+            <div class="my-container">
+                <div id="dynamic-cart1" class="my-grid-3 my-gap-4 my-grid-md-2">
+                    <div class="my-card my-p-2 my-border">
+                        <img/>
+                        <h3 class="name">Name</h3>
+                    </div>
+                    <div>
+                        <h3>Name</h3>
+                    </div>
+                    <div>
+                        <h3>Name</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+</odoo>

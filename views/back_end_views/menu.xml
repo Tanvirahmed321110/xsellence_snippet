@@ -13,7 +13,7 @@
         <menuitem name="New Product "
                   id="menu_new_product"
                   parent="menu_theme_tutorial_custom"
-                  action="theme_tutorial_new_product_action_id"
+                  action="xsellence_snippets_new_product_action_id"
                   sequence="-1"/>
     </data>
 </odoo>

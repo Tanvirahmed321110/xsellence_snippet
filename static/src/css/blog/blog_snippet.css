@@ -1,0 +1,21 @@
+
+.blogs1-area .blog {
+    border:1px solid #f4f4f4;
+    border-bottom: 8px slateblue solid;
+    transition: .2s linear;
+    padding:4px;
+}
+
+.blogs1-area .blog:hover {
+    border-bottom: 8px solid var(--red);
+}
+
+.blogs1-area .blog h4 {
+    font-size: var(--fs-md);
+}
+
+.blogs1-area .blog-title-border {
+    border-bottom: 4px solid var(--primary-color);
+    width: 140px;
+    margin-bottom: 24px;
+}

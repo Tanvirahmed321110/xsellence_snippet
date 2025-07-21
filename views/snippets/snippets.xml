@@ -7,35 +7,52 @@
             <t snippet-group="Hero" t-snippet="website.s_snippet_group" string="Hero Snippet"
                t-thumbnail="/xsellence_snippets/static/description/theme_screenshot.jpg"/>
 
-            <!-- Group 2: Test2 -->
-            <!--            <t snippet-group="Test2" t-snippet="website.s_snippet_group" string="Test2"-->
-            <!--               t-thumbnail="/xsellence_snippets/static/description/theme_screenshot.jpg"/>-->
+            <!-- Blog Snippet Group-->
+            <t snippet-group="Blog" t-snippet="website.s_snippet_group" string="Blog Snippet"
+               t-thumbnail="/xsellence_snippets/static/description/theme_screenshot.jpg"/>
+
+            <!-- Offer Snippet Group-->
+            <t snippet-group="Offer" t-snippet="website.s_snippet_group" string="Offer Snippet"
+               t-thumbnail="/xsellence_snippets/static/description/theme_screenshot.jpg"/>
+
+
+            <!-- Dynamic Snippet Group-->
+            <t snippet-group="dynamic" t-snippet="website.s_snippet_group" string="dynamic Snippet"
+               t-thumbnail="/xsellence_snippets/static/description/theme_screenshot.jpg"/>
         </xpath>
 
 
+        <!-- Hero Snippet Group-->
         <xpath expr="//snippets[@id='snippet_structure']" position="inside">
-            <!--            <t t-snippet="xsellence_snippets.property_agents" string="Property Agents" group="Test">-->
-            <!--                <keywords>hero, jumbotron, headline, header, branding, intro, home, showcase, spotlight, lead,-->
-            <!--                    welcome, announcement, splash, top, main-->
-            <!--                </keywords>-->
-            <!--            </t>-->
-
             <!-- =========  Hero 1 Snippet  ========== -->
             <t t-snippet="xsellence_snippets.hero1-snippet" string="Hero section" group="Hero">
             </t>
-            <!-- =========  Hero 1 Snippet  ========== -->
-<!--            <t t-snippet="xsellence_snippets.hero2-snippet" string="Slider" group="Hero">-->
-<!--            </t>-->
 
+              <!-- =========  Hero 2 Snippet  ========== -->
+            <t t-snippet="xsellence_snippets.hero2-snippet" string="Hero section" group="Hero">
+            </t>
         </xpath>
 
 
-        <!-- group 2 child-->
+        <!-- Blog Snippet Group-->
         <xpath expr="//snippets[@id='snippet_structure']" position="inside">
+            <!-- =========  Blog Snippet Cart  ========== -->
+            <t t-snippet="xsellence_snippets.blog-1" sring="Blog" group="Blog">
+            </t>
+        </xpath>
 
-            <!-- =========  Product Cart  ========== -->
-            <!--            <t t-snippet="xsellence_snippets.new-product-snippet" sring="Product Cart" group="Test2">-->
-            <!--            </t>-->
+        <!-- Offer Snippet Group-->
+        <xpath expr="//snippets[@id='snippet_structure']" position="inside">
+            <!-- =========  Blog Snippet Cart  ========== -->
+            <t t-snippet="xsellence_snippets.offer-1" sring="Offer" group="Offer">
+            </t>
+        </xpath>
+
+        <!-- Dynamic Snippet Group-->
+        <xpath expr="//snippets[@id='snippet_structure']" position="inside">
+            <!-- =========  Blog Snippet Cart  ========== -->
+            <t t-snippet="xsellence_snippets.dynamic-cart1-snippet" sring="Dynamic Cart1" group="dynamic">
+            </t>
         </xpath>
     </template>
 </odoo>

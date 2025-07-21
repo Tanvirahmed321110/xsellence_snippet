@@ -93,6 +93,9 @@ a {
     user-select: none;
     font-size: inherit;
 }
+a:hover{
+     text-decoration: none !important;
+}
 
 button {
     user-select: none;

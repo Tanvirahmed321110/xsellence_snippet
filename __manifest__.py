@@ -9,10 +9,13 @@
         'security/ir.model.access.csv',
 
         'views/header.xml',
-        'views/footer.xml',
+        # 'views/footer.xml',
         # 'views/snippets/dynamic_products.xml',
         'views/snippets/hero/hero1.xml',
-        # 'views/snippets/new_product.xml',
+        'views/snippets/blog/blog1.xml',
+        'views/snippets/offer/offer1.xml',
+        'views/snippets/hero/hero2.xml',
+        'views/snippets/dynamic/dynamic_cart1.xml',
 
         # ==============   Backend View   ===============
         'views/back_end_views/new_product_views.xml',
@@ -26,17 +29,16 @@
         'web.assets_frontend': [
             # ==============   For Main Css   ===============
             'xsellence_snippets/static/src/css/common.css',
-            # 'https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css',
-            # 'https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css',
-            # 'https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js',
 
             # ==============   For All Snippets Css File  ===============
             'xsellence_snippets/static/src/css/hero/hero.css',
+            'xsellence_snippets/static/src/css/blog/blog_snippet.css',
+            'xsellence_snippets/static/src/css/offer/offer.css',
 
             # ==============   For Js   ===============
             'xsellence_snippets/static/src/js/swiper-bundle.min.js',
-            # 'xsellence_snippets/static/src/js/hero/hero1.js',
-            # 'xsellence_snippets/static/src/js/dynamic_snippets.js',
+            'xsellence_snippets/static/src/js/dynamic_snippets.js',
+            'xsellence_snippets/static/src/js/dynamic-cart1.js',
             # 'xsellence_snippets/static/src/js/hero2.js',
             # 'xsellence_snippets/static/src/js/hero2.js',
             # 'theme_tutorial/static/src/js/new_product_snippet.js',
